@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#ffff99;
+    text-align: center;
+    padding-left: 600px;
+    background-image: url("images/pick4.jpg");
+    margin: 0;
+    background-size:cover;
+    background-position: none;
+}
+  #converter {
+    background-color:rgb(190, 237, 201);/* Brown background color */
+    color:black; /* White text color */
+    max-width: 500px;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+  }
+  
+  .conversion-section {
+    background-color:darkgreen;/* Black background color */
+    color: ghostwhite;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+  }
+  
+  .conversion-section h2 {
+    margin-top: 0;
+  }
+  
+  @media (max-width: 768px) {
+    #converter {
+      margin: 20px auto;
+      padding: 10px;
+      max-width: 80%;
+    }
+  }
+  /* Media Queries for Different Devices */
+/* iPhone SE, XR, 12 Pro */
+@media (max-width: 375px) {
+    .container {
+        font-size: 14px;
+    }
+}
+
+/* Pixel 5, Samsung Galaxy S8, S20 Ultra */
+@media (min-width: 376px) and (max-width: 767px) {
+    .container {
+        font-size: 16px;
+    }
+}
+
+/* iPad Air, iPad Mini (Portrait) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        font-size: 18px;
+    }
+}
+
+/* iPad Air, iPad Mini (Landscape) */
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .container {
+        font-size: 20px;
+    }
+}
+
+/* Nest Hub */
+@media (max-width: 480px) {
+    .container {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+    .container {
+        width: 70%;
+        font-size: 22px;
+    }
+}
